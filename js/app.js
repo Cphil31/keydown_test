@@ -6,6 +6,12 @@ let title = document.createElement("h1");
 title.innerHTML="keydown";
 body.appendChild(title);
 
+let mdn = "https://developer.mozilla.org/fr/docs/Web/API/KeyboardEvent";
+let src = document.createElement("a");
+src.innerHTML="Source";
+src.setAttribute("href",mdn);
+src.setAttribute("target","_blank");
+body.appendChild(src);
 
     document.addEventListener('keydown', (event) => {
         const nomTouche = event.key;
