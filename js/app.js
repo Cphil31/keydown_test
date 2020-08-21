@@ -2,9 +2,9 @@ window.onload = function () {
 
 let body = document.body;
 
-let titre = document.createElement("h1");
-titre.innerHTML="keydown";
-body.appendChild(titre);
+let title = document.createElement("h1");
+title.innerHTML="keydown";
+body.appendChild(title);
 
 
     document.addEventListener('keydown', (event) => {
